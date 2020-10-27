@@ -1,0 +1,43 @@
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-div {
+  background-color: aliceblue;
+  width: auto;
+  height: 100px;
+  font-size: large;
+  text-align: center;
+}
+
+.image-div {
+  border: solid 2px black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.horned-images {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-div {
+  background-color: pink;
+  width: auto;
+  height: 100px;
+  font-size: large;
+  text-align: center;
+}
