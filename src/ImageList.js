@@ -5,7 +5,7 @@ import ImageListItem from './ImageListItem.js'
 export default class ImageList extends Component {
     render() {
         return (
-            <div>
+            <div className='image-div'>
                 {
                     images.map((item, i) => {
                         return <ImageListItem 

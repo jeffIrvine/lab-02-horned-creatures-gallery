@@ -24,6 +24,11 @@ body {
   flex-wrap: wrap;
 
 }
+.image-title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 .horned-images {
   height: 200px;
@@ -31,6 +36,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2em;
+  height: 300px;
+  width: 300px;
 
 }
 

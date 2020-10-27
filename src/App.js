@@ -1,5 +1,5 @@
-import ImageList from './ImageList.js';
 import './App.css';
+import ImageList from './ImageList.js';
 import Header from './Header.js';
 import Footer from './Footer.js';
 
