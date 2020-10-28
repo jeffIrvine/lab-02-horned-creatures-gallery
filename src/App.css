@@ -1,8 +1,24 @@
-body {
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+} */
+
+.main {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.drop-down {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-div {
@@ -10,31 +26,32 @@ body {
   width: 100%;
   height: 100px;
   font-size: large;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .image-div {
   border: solid 2px black;
   border-radius: 10px;
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
   
-}
-.image-title {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
 }
 
 .horned-images {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2em;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
 
 }
 
@@ -44,4 +61,8 @@ body {
   height: 100px;
   font-size: large;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }

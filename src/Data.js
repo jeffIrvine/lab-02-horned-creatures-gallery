@@ -23,7 +23,7 @@ const images = [
       title: "Unicorn Head",
       description: "Someone wearing a creepy unicorn head mask",
       keyword: "unicorn",
-      real: 'no',
+      real: 'kinda',
       horns: 1
     },
     {
@@ -32,7 +32,7 @@ const images = [
       title: "UniLego",
       description: "Lego figurine dressed in a unicorn outfit",
       keyword: "unilego",
-      real: 'no',
+      real: 'kinda',
       horns: 1
     },
     {
@@ -41,7 +41,7 @@ const images = [
       title: "Basically a unicorn",
       description: "A narwhal is basically a unicorn after all, right?",
       keyword: "narwhal",
-      real: 'yes',
+      real: 'kinda',
       horns: 1
     },
     {
@@ -59,7 +59,7 @@ const images = [
       title: "Baby Rhino",
       description: "This is actually a figurine but it looks kinda real",
       keyword: "rhino",
-      real: 'yes',
+      real: 'kinda',
       horns: 2
     },
     {
@@ -78,7 +78,7 @@ const images = [
       title: "Narwhal costume",
       description: "A woman wearing a blue narwhal costume",
       keyword: "narwhal",
-      real: 'no',
+      real: 'kinda',
       horns: 1
     },
     {
@@ -86,7 +86,7 @@ const images = [
       title: "Rhino costume",
       description: "Mascots have to get their costumes somewhere",
       keyword: "rhino",
-      real: 'no',
+      real: 'kinda',
       horns: 2
     },
     {

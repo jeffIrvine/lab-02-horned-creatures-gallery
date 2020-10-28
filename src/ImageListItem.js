@@ -10,12 +10,17 @@ export default class ImageListItem extends Component {
                 <img className='horned-images' 
                 src={this.props.url} 
                 alt={this.props.title} />
-                <p>
-                    {this.props.booger}
-                </p>
-                <p>
-                   Number of horns: {this.props.horns}
-                </p>
+                <div>
+                    <p>
+                        {this.props.description}
+                    </p>
+                    <p>
+                    Number of horns: {this.props.horns}
+                    </p>
+                    <p>
+                        Is it real?: {this.props.real}
+                    </p>
+                </div>
             </div>
         )
     }
