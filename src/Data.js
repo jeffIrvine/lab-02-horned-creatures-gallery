@@ -5,6 +5,7 @@ const images = [
       title: "UniWhal",
       description: "A unicorn and a narwhal nuzzling their horns",
       keyword: "narwhal",
+      real: 'no',
       horns: 1
     },
     {
@@ -13,6 +14,7 @@ const images = [
       title: "Rhino Family",
       description: "Mother (or father) rhino with two babies",
       keyword: "rhino",
+      real: 'yes',
       horns: 2
     },
     {
@@ -21,6 +23,7 @@ const images = [
       title: "Unicorn Head",
       description: "Someone wearing a creepy unicorn head mask",
       keyword: "unicorn",
+      real: 'no',
       horns: 1
     },
     {
@@ -29,6 +32,7 @@ const images = [
       title: "UniLego",
       description: "Lego figurine dressed in a unicorn outfit",
       keyword: "unilego",
+      real: 'no',
       horns: 1
     },
     {
@@ -37,6 +41,7 @@ const images = [
       title: "Basically a unicorn",
       description: "A narwhal is basically a unicorn after all, right?",
       keyword: "narwhal",
+      real: 'yes',
       horns: 1
     },
     {
@@ -45,6 +50,7 @@ const images = [
       title: "#truth",
       description: "The truth behind narwhals",
       keyword: "narwhal",
+      real: 'no',
       horns: 1
     },
     {
@@ -53,6 +59,7 @@ const images = [
       title: "Baby Rhino",
       description: "This is actually a figurine but it looks kinda real",
       keyword: "rhino",
+      real: 'yes',
       horns: 2
     },
     {
@@ -62,6 +69,7 @@ const images = [
       description:
         "Three horns but still, horns. And who doesn't like The Land Before Time?",
       keyword: "triceratops",
+      real: 'yes',
       horns: 3
     },
     {
@@ -70,6 +78,7 @@ const images = [
       title: "Narwhal costume",
       description: "A woman wearing a blue narwhal costume",
       keyword: "narwhal",
+      real: 'no',
       horns: 1
     },
     {
@@ -77,6 +86,7 @@ const images = [
       title: "Rhino costume",
       description: "Mascots have to get their costumes somewhere",
       keyword: "rhino",
+      real: 'no',
       horns: 2
     },
     {
@@ -85,6 +95,7 @@ const images = [
       title: "Believe",
       description: "I believe in unicorns, do you?",
       keyword: "unicorn",
+      real: 'no',
       horns: 1
     },
     {
@@ -94,6 +105,7 @@ const images = [
       description:
         "These wild goats eat snakes, then secrete a foam that locals fight over for the antivenom properties -- how cool is that?",
       keyword: "markhor",
+      real: 'yes',
       horns: 2
     },
     {
@@ -101,6 +113,7 @@ const images = [
       title: "Baby markhor",
       description: "Even the babies are adorable",
       keyword: "markhor",
+      real: 'yes',
       horns: 2
     },
     {
@@ -109,6 +122,7 @@ const images = [
       title: "Mouflon",
       description: "Those horns though",
       keyword: "mouflon",
+      real: 'yes',
       horns: 2
     },
     {
@@ -117,6 +131,7 @@ const images = [
       description:
         "This guy is basically extinct but survives well in captivity, so they're frequently found in zoos",
       keyword: "addax",
+      real: 'yes',
       horns: 2
     },
     {
@@ -125,6 +140,7 @@ const images = [
       title: "Baby mouflon",
       description: "The cuteness that is a baby mouflon asleep",
       keyword: "mouflon",
+      real: 'yes',
       horns: 2
     },
     {
@@ -133,6 +149,7 @@ const images = [
       title: "Happy Jackson's Chameleon",
       description: "These are really common in Hawaii",
       keyword: "chameleon",
+      real: 'yes',
       horns: 2
     },
     {
@@ -141,6 +158,7 @@ const images = [
       title: "Serious Jackson's Chameleon",
       description: "This one is very serious.",
       keyword: "chameleon",
+      real: 'yes',
       horns: 3
     },
     {
@@ -149,6 +167,7 @@ const images = [
       title: "Horned Lizard",
       description: "Fave food: ants",
       keyword: "lizard",
+      real: 'yes',
       horns: 100
     },
     {
@@ -157,6 +176,7 @@ const images = [
       title: "Smaug",
       description: "Fan illustration of Smaug from 'The Hobbit'",
       keyword: "dragon",
+      real: 'no',
       horns: 100
     }
   ];

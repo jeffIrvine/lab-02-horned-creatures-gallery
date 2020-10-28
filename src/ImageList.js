@@ -9,7 +9,7 @@ export default class ImageList extends Component {
 
     handleChange = e => {
         this.setState({
-            filter: Number(e.target.value)
+            filter: e.target.value
         });
     }
 
@@ -18,7 +18,7 @@ export default class ImageList extends Component {
         const filterData = images.filter((item) => {
             if (!this.state.filter) return true;
 
-            if (item.horns === this.state.filter) return true;
+            if (item.horns.toString() === this.state.filter || item.keyword === this.state.filter || item.real.toString() === this.state.filter) return true;
 
             return false
         }); 
@@ -29,6 +29,17 @@ export default class ImageList extends Component {
                 <>
                 <select onChange={this.handleChange}>
                     <option value=''>Show All</option>
+                    <option value='dragon'>Dragons</option>
+                    <option value='lizard'>Lizards</option>
+                    <option value='chameleon'>chameleons</option>
+                    <option value='mouflon'>mouflon</option>
+                    <option value='addax'>addax</option>
+                    <option value='markhor'>markhor</option>
+                    <option value='unicorn'>unicorn</option>
+                    <option value='rhino'>rhino</option>
+                    <option value='narwhal'>narwhal</option>
+                    <option value='triceratops'>triceratops</option>
+                    <option value='unilego'>unilego</option>
                     <option value='1'>1 Horn</option>
                     <option value='2'>2 Horns</option>
                     <option value='3'>3 Horns</option>
