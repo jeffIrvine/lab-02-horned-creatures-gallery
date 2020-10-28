@@ -5,7 +5,7 @@ export default class Footer extends Component {
         return (
             <div className='footer-div'>
                 <p>
-                I'm, the footer and I make this look easy.
+                I'm the footer and I make this look easy.
                 </p>
             </div>
         )

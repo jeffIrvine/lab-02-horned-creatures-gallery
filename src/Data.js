@@ -69,7 +69,7 @@ const images = [
       description:
         "Three horns but still, horns. And who doesn't like The Land Before Time?",
       keyword: "triceratops",
-      real: 'yes',
+      real: 'kinda',
       horns: 3
     },
     {
